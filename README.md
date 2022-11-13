@@ -11,4 +11,5 @@ O objetivo deste repositório é armazenar os estudos e resoluções de exercíc
 ## O que foi visto até o momento
 
 - Manipulação de strings
-- Manipulação de listas (em andamento)
+- Manipulação de listas 
+- Estruturas de repetição: for (Em andamento)
