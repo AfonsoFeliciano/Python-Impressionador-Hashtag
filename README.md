@@ -14,4 +14,5 @@ O objetivo deste repositório é armazenar os estudos e resoluções de exercíc
 - Manipulação de listas 
 - Estruturas de repetição: for 
 - Estruturas de repetição: while
-- Tuplas (em andamento)
+- Tuplas
+- Dicionários (em andamento)
