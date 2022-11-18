@@ -17,4 +17,5 @@ O objetivo deste repositório é armazenar os estudos e resoluções de exercíc
 - Tuplas
 - Dicionários 
 - Iterable
-- Funções (em andamento)
+- Funções
+- Introdução a POO
