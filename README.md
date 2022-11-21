@@ -19,4 +19,5 @@ O objetivo deste repositório é armazenar os estudos e resoluções de exercíc
 - Iterable
 - Funções
 - Introdução a POO
-- List Comprehension (Em andamento)
+- List Comprehension
+- Expressões Lambda (Em andamento)
