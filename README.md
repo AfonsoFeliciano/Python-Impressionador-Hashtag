@@ -20,4 +20,5 @@ O objetivo deste repositório é armazenar os estudos e resoluções de exercíc
 - Funções
 - Introdução a POO
 - List Comprehension
-- Expressões Lambda (Em andamento)
+- Expressões Lambda
+- Análise de Dados com Pandas
