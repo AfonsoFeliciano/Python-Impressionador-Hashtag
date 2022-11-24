@@ -1,0 +1,115 @@
+﻿ID Funcionário;Estado Civil;Nome Completo;Salario Base;Impostos;Beneficios;VT;VR;Cargo;Area
+1;C;Gabriel Mesquita;21910;10955;4382;242;719,04;Diretor;Operações
+2;C;João Haddad;5404;2702;1080,8;154;574,56;Estagiário;Logística
+3;C;Amanda Marques Ribeiro;16066;8033;3213,2;154;729,12;Estagiário;Administrativo
+4;C;Guilherme Nunez;21305;10652,5;4261;220;524,16;Analista;Administrativo
+5;C;Adelino Gomes;5098;2549;1019,6;176;725,76;Analista;Administrativo
+6;C;Audir de Avila Goulart;23688;11844;4737,6;242;594,72;Analista;Operações
+7;C;Zilma Guimarães;17875;8937,5;3575;286;813,12;Diretor;Financeiro
+8;C;Gil Bonder;3540;1770;708;198;769,44;Analista;Operações
+9;S;Gustavo de Melo Teixeira;23512;11756;4702,4;242;745,92;Analista;Financeiro
+10;S;Andre Campos;24857;12428,5;4971,4;264;719,04;Coordenador;Administrativo
+11;S;André Melo Soledade;9955;4977,5;1991;198;719,04;Analista;Administrativo
+13;C;Luca Costa;22980;11490;4596;176;658,56;Gerente;Logística
+14;C;Jessica Oliveira Lima;2182;1091;436,4;220;604,8;Estagiário;Financeiro
+16;S;Vinicius Freitas;2411;1205,5;482,2;264;792,96;Analista;Financeiro
+17;S;Pedro Carrera;15718;7859;3143,6;176;628,32;Coordenador;Logística
+18;S;Isabella Bernardo;8460;4230;1692;308;574,56;Coordenador;Comercial
+21;C;Maria Lobo;19045;9522,5;3809;264;836,64;Diretor;Financeiro
+22;S;Bruno Vargas;10726;5363;2145,2;198;547,68;Gerente;Comercial
+23;S;Bárbara Spenchutt Vieira;9402;4701;1880,4;154;742,56;Estagiário;Administrativo
+24;S;Andre Ramos;13024;6512;2604,8;286;789,6;Diretor;Operações
+25;S;Livia Mello;23612;11806;4722,4;264;561,12;Diretor;Administrativo
+26;C;Jéssica Neves Heimlich;16364;8182;3272,8;154;638,4;Coordenador;Comercial
+27;C;Carolina Monteiro;1865;932,5;373;198;635,04;Coordenador;Financeiro
+28;S;Luís Werneck;7601;3800,5;1520,2;198;816,48;Gerente;Comercial
+29;C;Cícero Barcelos Tagliari;11283;5641,5;2256,6;176;638,4;Analista;Operações
+31;S;Thayná Freitas Medronho;9562;4781;1912,4;264;604,8;Analista;Logística
+32;C;Marina Silva Pacheco;24271;12135,5;4854,2;308;631,68;Coordenador;Administrativo
+34;C;Vitor Cordovil de Maglhães;13652;6826;2730,4;220;598,08;Gerente;Operações
+35;C;Carolina Gaspar de Mattos      ;10078;5039;2015,6;198;561,12;Analista;Administrativo
+36;S;Victor Mota;19456;9728;3891,2;286;799,68;Analista;Comercial
+37;C;Marcos Almeida Albuquerque Faria;3398;1699;679,6;242;540,96;Analista;Financeiro
+38;S;Marcelo Amaral Coelho;17475;8737,5;3495;176;809,76;Estagiário;Operações
+39;S;Tomas Guadagnino;14468;7234;2893,6;308;745,92;Estagiário;Comercial
+44;C;Matheus Pereira dos Santos;17930;8965;3586;308;735,84;Estagiário;Operações
+45;C;Mariana Martins;3374;1687;674,8;286;520,8;Analista;Comercial
+46;C;Rafael Rozental;20030;10015;4006;308;628,32;Diretor;Administrativo
+47;S;Rodrigo e Silva Lemos;7480;3740;1496;264;779,52;Coordenador;Operações
+48;S;Marianna Pereira da Silva;3947;1973,5;789,4;176;829,92;Estagiário;Financeiro
+49;C;Roberto Suzano;24509;12254,5;4901,8;154;507,36;Diretor;Financeiro
+51;S;Matheus Sepúlveda;12832;6416;2566,4;242;799,68;Estagiário;Administrativo
+52;S;Jéssica de Morais Silva;20951;10475,5;4190,2;308;776,16;Coordenador;Logística
+54;C;Patrick da Silva Farias ;23391;11695,5;4678,2;220;658,56;Estagiário;Administrativo
+56;S;Isabelle Tiradentes;19297;9648,5;3859,4;154;557,76;Estagiário;Comercial
+57;C;Raissa Carelli;24482;12241;4896,4;220;661,92;Estagiário;Operações
+58;C;Lorena Marinho;7049;3524,5;1409,8;286;759,36;Analista;Logística
+60;S;Fillipe Tupini;19379;9689,5;3875,8;286;792,96;Analista;Logística
+61;C;Michelle Zerbinato;13008;6504;2601,6;308;517,44;Estagiário;Logística
+62;C;Luiz Guarçoni Migueis;19843;9921,5;3968,6;154;540,96;Coordenador;Comercial
+63;S;João Monteiro;11983;5991,5;2396,6;264;826,56;Analista;Administrativo
+64;C;Douglas Costa;16484;8242;3296,8;264;591,36;Estagiário;Operações
+65;C;João Ramos;11596;5798;2319,2;198;504;Coordenador;Comercial
+66;S;Poline Limp;19441;9720,5;3888,2;242;819,84;Estagiário;Logística
+67;C;Carla Amiccuci Areias;12054;6027;2410,8;308;829,92;Coordenador;Financeiro
+68;S;Fernanda Rossini;17943;8971,5;3588,6;264;729,12;Analista;Financeiro
+69;S;Leandro Almeida Neri;4811;2405,5;962,2;220;604,8;Coordenador;Administrativo
+70;S;Luiz Rodrigues Chaves;3391;1695,5;678,2;176;584,64;Estagiário;Operações
+71;S;Leonardo Valença Castro;16054;8027;3210,8;176;682,08;Analista;Operações
+72;S;Lucas Duarte;11867;5933,5;2373,4;264;524,16;Analista;Logística
+73;S;José Rodrigues Pereira;2439;1219,5;487,8;264;692,16;Analista;Comercial
+74;S;Átila Godoy de Melo;8831;4415,5;1766,2;264;668,64;Estagiário;Financeiro
+76;C;Lucas de Jesus;19621;9810,5;3924,2;154;611,52;Analista;Administrativo
+77;S;Bruno de Souza;20048;10024;4009,6;154;826,56;Analista;Administrativo
+78;S;Gabriel Castro Cerqueira;19086;9543;3817,2;264;514,08;Analista;Comercial
+79;S;Larissa Coutinho Beltrao;17207;8603,5;3441,4;198;688,8;Diretor;Operações
+80;S;Frederico Vidal;7833;3916,5;1566,6;220;517,44;Analista;Comercial
+81;C;Giuseppe Fernandes;12377;6188,5;2475,4;308;766,08;Coordenador;Logística
+83;S;Larissa do Nascimento Lima;6708;3354;1341,6;198;665,28;Estagiário;Administrativo
+84;S;Fernanda Castro Morett Ceppas;9326;4663;1865,2;220;588;Analista;Logística
+85;C;Rodrigo dos Santos Villares Vianna;20377;10188,5;4075,4;286;816,48;Estagiário;Operações
+86;C;Felipe Jordão Teixeira;9062;4531;1812,4;308;688,8;Estagiário;Administrativo
+88;S;Aline de Souza;4182;2091;836,4;286;517,44;Gerente;Administrativo
+90;S;Bruna Tavares Vasconcelos;12101;6050,5;2420,2;176;591,36;Estagiário;Administrativo
+91;S;Luana Stockler;2247;1123,5;449,4;264;829,92;Coordenador;Comercial
+92;S;Alberto Ruzza de Carvalho;15433;7716,5;3086,6;308;769,44;Estagiário;Operações
+93;S;Rafael Hollander;4933;2466,5;986,6;198;756;Analista;Financeiro
+94;C;Marina Vasconcelos de Sousa;23792;11896;4758,4;220;769,44;Coordenador;Operações
+97;C;João Fagundes;22386;11193;4477,2;264;621,6;Estagiário;Operações
+98;C;Brenda Lopes;5026;2513;1005,2;242;520,8;Gerente;Comercial
+99;C;Rafael Viana Santos;18763;9381,5;3752,6;154;692,16;Coordenador;Administrativo
+100;S;Juliana Vieira Filho;1961;980,5;392,2;286;594,72;Coordenador;Operações
+101;C;Victoria Nascimento Viríssimo;21647;10823,5;4329,4;308;601,44;Analista;Logística
+102;C;Adriano de Souza;2378;1189;475,6;220;507,36;Estagiário;Comercial
+103;C;Rodrigo Barreto;5799;2899,5;1159,8;286;564,48;Gerente;Comercial
+105;S;Roberta Vaz;21315;10657,5;4263;286;698,88;Estagiário;Comercial
+109;C;Bruna Calmon;15076;7538;3015,2;242;624,96;Gerente;Logística
+110;S;Higor Frossard;5556;2778;1111,2;264;806,4;Estagiário;Operações
+111;S;Daniela Santos Silva;9367;4683,5;1873,4;198;554,4;Estagiário;Operações
+112;S;Matheus Sone;17393;8696,5;3478,6;264;665,28;Coordenador;Operações
+113;C;Aline Santos Silva;22887;11443,5;4577,4;242;688,8;Analista;Comercial
+116;C;Bruno Cunha Felippe;21154;10577;4230,8;198;792,96;Analista;Logística
+117;C;Flávio Jacques Gamboa Fernandez de Oliveira Netto;17709;8854,5;3541,8;220;614,88;Estagiário;Financeiro
+118;C;Lucas Martins;20424;10212;4084,8;308;708,96;Coordenador;Operações
+119;C;Hanna Vaz;13568;6784;2713,6;176;504;Coordenador;Administrativo
+121;C;Paulo Rodrigues Pereira;9870;4935;1974;220;661,92;Analista;Logística
+122;S;Thaís Lisboa;2782;1391;556,4;286;816,48;Analista;Financeiro
+123;S;Thomaz Wegbrayt;17363;8681,5;3472,6;264;631,68;Analista;Logística
+124;S;Carolina Gonçalves Lixa Fontoura;12559;6279,5;2511,8;242;688,8;Analista;Comercial
+125;S;Débora Pereira Ribeiro;10766;5383;2153,2;308;688,8;Coordenador;Financeiro
+127;C;Isabelle de Sá Foly;14586;7293;2917,2;286;829,92;Analista;Administrativo
+129;S;Pedro Assis;21566;10783;4313,2;242;658,56;Analista;Logística
+130;S;Mylena Pinheiro Mariano;5818;2909;1163,6;242;598,08;Coordenador;Comercial
+131;C;Renan Taylor;7428;3714;1485,6;154;645,12;Gerente;Financeiro
+132;C;João Barbosa;6887;3443,5;1377,4;286;725,76;Gerente;Financeiro
+133;S;Adrielle Sá Rodrigues;11424;5712;2284,8;286;540,96;Coordenador;Logística
+135;C;Caroline Valente de Figueiredo;13506;6753;2701,2;154;829,92;Coordenador;Administrativo
+137;C;Stefan Vargas;17437;8718,5;3487,4;176;651,84;Analista;Comercial
+138;S;Maria Lopes de Almeida;13893;6946,5;2778,6;242;551,04;Analista;Comercial
+139;S;Paloma Albano;15531;7765,5;3106,2;220;631,68;Coordenador;Administrativo
+142;S;Gabriel Mello;24598;12299;4919,6;242;527,52;Estagiário;Logística
+143;C;Renan Scharnhorst Ott;10793;5396,5;2158,6;242;514,08;Analista;Logística
+144;S;Lucas Brum Pereira;4048;2024;809,6;198;796,32;Estagiário;Comercial
+148;S;Caio Stellet;24596;12298;4919,2;242;561,12;Analista;Administrativo
+149;C;Fernanda Rocha;5078;2539;1015,6;308;665,28;Estagiário;Comercial
+150;C;Eduardo Brum;15939;7969,5;3187,8;220;769,44;Analista;Comercial

@@ -1,0 +1,307 @@
+﻿ID Loja;Nome da Loja;Quantidade Colaboradores;País
+1;Loja Contoso Seattle No.1 ;17;Estados Unidos
+2;Loja Contoso Seattle No.2 ;25;Estados Unidos
+3;Loja Contoso Kennewick ;26;Estados Unidos
+4;Loja Contoso Bellevue ;19;Estados Unidos
+5;Loja Contoso Redmond ;33;Estados Unidos
+6;Loja Contoso Yakima ;47;Estados Unidos
+7;Loja Contoso Granger ;22;Estados Unidos
+8;Loja Contoso Sunnyside ;17;Estados Unidos
+9;Loja Contoso Toppenish ;25;Estados Unidos
+10;Loja Contoso Wapato ;25;Estados Unidos
+11;Loja Contoso Cle Elum ;26;Estados Unidos
+13;Loja Contoso Snoqualmie ;33;Estados Unidos
+14;Loja Contoso Fall City ;47;Estados Unidos
+15;Loja Contoso Renton ;22;Estados Unidos
+16;Loja Contoso Everett ;17;Estados Unidos
+17;Loja Contoso Spokane ;25;Estados Unidos
+18;Loja Contoso Veradale ;26;Estados Unidos
+20;Loja Contoso Englewood ;33;Estados Unidos
+21;Loja Contoso Wheat Ridge ;47;Estados Unidos
+22;Loja Contoso Westminster ;22;Canadá
+23;Loja Contoso Grand Junction ;17;Estados Unidos
+24;Loja Contoso New Castle ;25;Estados Unidos
+25;Loja Contoso Greeley  No.1 ;25;Estados Unidos
+26;Loja Contoso Loveland ;26;Estados Unidos
+27;Loja Contoso Lafayette ;19;Estados Unidos
+28;Loja Contoso Castle Rock ;33;Estados Unidos
+30;Loja Contoso Fort Collins ;22;Estados Unidos
+31;Loja Contoso Greeley No.2 ;17;Estados Unidos
+32;Loja Contoso Milliken ;25;Estados Unidos
+33;Loja Contoso Berthoud ;26;Estados Unidos
+34;Loja Contoso Denver No.1 ;26;Estados Unidos
+35;Loja Contoso Denver No.2 ;19;Estados Unidos
+36;Loja Contoso Denver No.3 ;33;Estados Unidos
+37;Loja Contoso Boulder ;47;Estados Unidos
+38;Loja Contoso Thornton ;22;Estados Unidos
+39;Loja Contoso Littleton ;17;Estados Unidos
+40;Loja Contoso Aurora ;25;Estados Unidos
+41;Loja Contoso Parker ;26;Estados Unidos
+42;Loja Contoso Green Bay ;19;Estados Unidos
+43;Loja Contoso Appleton ;33;Estados Unidos
+44;Loja Contoso Menasha ;47;Estados Unidos
+45;Loja Contoso Oshkosh ;22;Estados Unidos
+46;Loja Contoso Fond du Lac ;17;Estados Unidos
+47;Loja Contoso Milwaukee No.1 ;25;Estados Unidos
+49;Loja Contoso Milwaukee No.3 ;26;Estados Unidos
+50;Loja Contoso Waukesha No.1 ;19;Estados Unidos
+51;Loja Contoso Racine No.1 ;33;Estados Unidos
+52;Loja Contoso Burlington ;47;Estados Unidos
+53;Loja Contoso East Troy ;22;Estados Unidos
+54;Loja Contoso Waukesha No.2 ;17;Estados Unidos
+55;Loja Contoso Germantown ;25;Estados Unidos
+57;Loja Contoso Port Washington ;26;Estados Unidos
+58;Loja Contoso Sheboygan ;19;Estados Unidos
+59;Loja Contoso Manitowoc ;33;Estados Unidos
+60;Loja Contoso Madison ;47;Estados Unidos
+61;Loja Contoso Oregon ;22;Estados Unidos
+63;Loja Contoso Edgerton ;25;Estados Unidos
+64;Loja Contoso Fort Atkinson ;26;Estados Unidos
+65;Loja Contoso Racine No.2 ;19;Estados Unidos
+66;Loja Contoso Houston No.1 ;33;Estados Unidos
+67;Loja Contoso Houston No.2 ;47;Estados Unidos
+68;Loja Contoso Houston No.3 ;22;Estados Unidos
+69;Loja Contoso Houston No.4 ;17;Estados Unidos
+70;Loja Contoso Midland ;25;Estados Unidos
+71;Loja Contoso Russellville ;25;Estados Unidos
+72;Loja Contoso Minden ;26;Estados Unidos
+73;Loja Contoso Shreveport ;19;Estados Unidos
+74;Loja Contoso Marshall ;33;Estados Unidos
+75;Loja Contoso Longview ;47;Estados Unidos
+76;Loja Contoso Beaumont No.1 ;22;Estados Unidos
+77;Loja Contoso Orange ;17;Estados Unidos
+78;Loja Contoso Beaumont No.2 ;25;Estados Unidos
+79;Loja Contoso Baytown ;26;Estados Unidos
+80;Loja Contoso La Porte ;26;Estados Unidos
+81;Loja Contoso Bacliff ;19;Estados Unidos
+82;Loja Contoso Texas City ;33;Estados Unidos
+83;Loja Contoso Pasadena ;47;Estados Unidos
+85;Loja Contoso Spring ;17;Estados Unidos
+86;Loja Contoso Austin ;25;Estados Unidos
+87;Loja Contoso San Antonio ;26;Estados Unidos
+88;Loja Contoso Cedar Park ;19;Estados Unidos
+89;Loja Contoso Round Rock ;33;Estados Unidos
+90;Loja Contoso Dallas ;47;Estados Unidos
+91;Loja Contoso Georgetown ;22;Estados Unidos
+92;Loja Contoso Hillsboro ;17;Estados Unidos
+93;Loja Contoso Arlington ;25;Estados Unidos
+94;Loja Contoso Grand Prairie ;25;Estados Unidos
+95;Loja Contoso Desoto ;26;Estados Unidos
+96;Loja Contoso Richardson ;19;Estados Unidos
+97;Loja Contoso Lewisville ;33;Estados Unidos
+98;Loja Contoso Denton ;47;Estados Unidos
+99;Loja Contoso Fort Worth ;22;Estados Unidos
+100;Loja Contoso Plano ;17;Estados Unidos
+101;Loja Contoso Miami No.1 ;17;Estados Unidos
+102;Loja Contoso Miami No.2 ;25;Estados Unidos
+103;Loja Contoso Jacksonville ;26;Estados Unidos
+104;Loja Contoso Tallahassee No.1 ;19;Estados Unidos
+105;Loja Contoso Tallahassee No.2 ;33;Estados Unidos
+107;Loja Contoso Sebring ;22;Estados Unidos
+108;Loja Contoso Lakeland ;17;Estados Unidos
+109;Loja Contoso Fort Lauderdale ;25;Estados Unidos
+110;Loja Contoso Orlando ;25;Estados Unidos
+111;Loja Contoso Tampa ;26;Estados Unidos
+113;Loja Contoso Cape Canaveral ;33;Estados Unidos
+114;Loja Contoso Albany ;47;Estados Unidos
+115;Loja Contoso New York No.1 ;22;Estados Unidos
+116;Loja Contoso Rochester No.1 ;17;Estados Unidos
+117;Loja Contoso New York No.2 ;25;Estados Unidos
+118;Loja Contoso Syracuse ;26;Estados Unidos
+120;Loja Contoso Plattsburgh ;33;Estados Unidos
+121;Loja Contoso Brooklyn ;47;Estados Unidos
+122;Loja Contoso Oswego ;22;Estados Unidos
+123;Loja Contoso Ithaca ;17;Estados Unidos
+124;Loja Contoso Rochester No.2 ;25;Estados Unidos
+125;Loja Contoso Queens ;25;Estados Unidos
+126;Loja Contoso Elmira ;26;Estados Unidos
+127;Loja Contoso Poestenkill ;19;Estados Unidos
+128;Loja Contoso Trenton No.1 ;33;Estados Unidos
+130;Loja Contoso Newark No.1 ;22;Estados Unidos
+131;Loja Contoso Newark No.2 ;17;Estados Unidos
+132;Loja Contoso Jersey City ;25;Estados Unidos
+133;Loja Contoso Paterson ;26;Estados Unidos
+134;Loja Contoso Clifton ;26;Estados Unidos
+135;Loja Contoso East Orange ;19;Estados Unidos
+136;Loja Contoso Passaic ;33;Estados Unidos
+137;Loja Contoso Bayonne ;47;Estados Unidos
+138;Loja Contoso Vineland ;22;Estados Unidos
+139;Loja Contoso New Brunswick ;17;Estados Unidos
+140;Loja Contoso Hackensack ;25;Estados Unidos
+141;Loja Contoso Atlantic City ;26;Estados Unidos
+142;Loja Contoso Montclair ;19;Estados Unidos
+143;Loja Contoso Hoboken ;33;Estados Unidos
+144;Loja Contoso Morristown ;47;Estados Unidos
+145;Loja Contoso Cape May ;22;Estados Unidos
+146;Loja Contoso Boston ;17;Estados Unidos
+147;Loja Contoso Worcester No.1 ;25;Estados Unidos
+149;Loja Contoso New Bedford ;26;Estados Unidos
+150;Loja Contoso Attleboro ;19;Estados Unidos
+151;Loja Contoso Lowell ;33;Estados Unidos
+152;Loja Contoso Leominster ;47;Estados Unidos
+153;Loja Contoso Hingham ;22;Estados Unidos
+154;Loja Contoso Quincy ;17;Estados Unidos
+155;Loja Contoso Framingham ;25;Estados Unidos
+156;Loja Contoso Cambridge ;26;Reino Unido
+157;Loja Contoso Somerville ;26;Estados Unidos
+158;Loja Contoso Haverhill ;19;Estados Unidos
+159;Loja Contoso Lynn ;33;Estados Unidos
+160;Loja Contoso Northampton ;47;Estados Unidos
+161;Loja Contoso Holyoke ;22;Estados Unidos
+163;Loja Contoso Falmouth ;25;Estados Unidos
+164;Loja Contoso Provincetown ;26;Estados Unidos
+165;Loja Contoso Nantucket ;19;Estados Unidos
+166;Loja Contoso Bangor ;33;Estados Unidos
+167;Loja Contoso Bar Harbor ;47;Estados Unidos
+168;Loja Contoso Kennebunkport ;22;Estados Unidos
+169;Loja Contoso Lewiston ;17;Estados Unidos
+170;Loja Contoso Orono ;25;Estados Unidos
+171;Loja Contoso South Portland ;25;Estados Unidos
+172;Loja Contoso Hartford ;26;Estados Unidos
+173;Loja Contoso Bridgeport ;19;Estados Unidos
+174;Loja Contoso Waterbury ;33;Estados Unidos
+175;Loja Contoso Old Saybrook ;47;Estados Unidos
+176;Loja Contoso Darien ;22;Estados Unidos
+177;Loja Contoso New Haven ;17;Estados Unidos
+178;Loja Contoso Litchfield County ;25;Estados Unidos
+179;Loja Contoso New London ;26;Estados Unidos
+180;Loja Contoso Norfolk ;26;Estados Unidos
+181;Loja Contoso Virginia Beach ;19;Estados Unidos
+182;Loja Contoso Winchester ;33;Estados Unidos
+183;Loja Contoso Anchorage ;47;Estados Unidos
+185;Loja Contoso Roanoke ;17;Estados Unidos
+186;Loja Contoso Charlottesville ;25;Estados Unidos
+187;Loja Contoso Fredericksburg ;26;Estados Unidos
+188;Loja Contoso Martinsville ;19;Estados Unidos
+189;Loja Contoso Greenville ;33;Estados Unidos
+190;Loja Contoso Charleston ;47;Estados Unidos
+191;Loja Contoso Annapolis ;22;Estados Unidos
+192;Loja Contoso Baltimore ;17;Estados Unidos
+193;Loja Contoso Howard ;25;Estados Unidos
+194;Loja Contoso Ridgely ;25;Estados Unidos
+195;Loja Contoso Queen Anne's County ;26;Estados Unidos
+196;Loja Contoso Parkville ;19;Estados Unidos
+197;Loja Contoso Back River ;33;Estados Unidos
+198;Loja Contoso North Harford ;47;Estados Unidos
+201;Loja Contoso London ;17;Reino Unido
+202;Loja Contoso Edinburgh ;25;Reino Unido
+203;Loja Contoso Glasgow ;26;Reino Unido
+204;Loja Contoso York ;78;Reino Unido
+205;Loja Contoso Carlisle ;23;Reino Unido
+206;Loja Contoso Manchester ;11;Reino Unido
+207;Loja Contoso Lancashire ;36;Reino Unido
+208;Loja Contoso West Yorkshire ;90;Reino Unido
+209;Loja Contoso Baildon ;32;Reino Unido
+210;Loja Contoso Cheshire ;;Reino Unido
+211;Loja Contoso Stockport ;34;Reino Unido
+212;Loja Contoso Liverpool ;64;Reino Unido
+213;Loja Contoso Knotty Ash ;24;Reino Unido
+214;Loja Contoso Leeds ;25;Reino Unido
+215;Loja Contoso Paris ;12;França
+216;Loja Contoso Marseille ;13;França
+217;Loja Contoso Lyon ;15;França
+218;Loja Contoso Toulouse ;23;França
+219;Loja Contoso Nice ;32;França
+220;Loja Contoso Nantes ;11;França
+221;Loja Contoso Strasbourg ;10;França
+222;Loja Contoso Roma ;43;Itália
+223;Loja Contoso Venezia ;11;Itália
+224;Loja Contoso Firenze ;45;Itália
+225;Loja Contoso Torino ;24;Itália
+226;Loja Contoso Milan ;23;Itália
+227;Loja Contoso Naples ;13;Estados Unidos
+228;Loja Contoso Berlin ;13;Alemanha
+230;Loja Contoso koln No.2 ;25;Alemanha
+231;Loja Contoso Hofheim ;25;Alemanha
+232;Loja Contoso koln No.1 ;35;Alemanha
+233;Loja Contoso Landstuhl ;21;Alemanha
+234;Loja Contoso Dusseldorf ;24;Alemanha
+235;Loja Contoso Ramstein ;15;Alemanha
+236;Loja Contoso Baumholder ;28;Alemanha
+237;Loja Contoso Giebelstadt ;15;Alemanha
+238;Loja Contoso obamberg ;29;Alemanha
+239;Loja Contoso Munich ;18;Alemanha
+240;Loja Contoso Amsterdam ;26;Holanda
+241;Loja Contoso Copenhagen ;25;Dinamarca
+242;Loja Contoso Stockholm ;33;Suécia
+243;Loja Contoso Madrid ;35;Espanha
+244;Loja Contoso Ljubljana ;36;Eslovênia
+245;Loja Contoso Bucharest ;25;Romênia
+246;Loja Contoso Berne ;53;Suíça
+247;Loja Contoso Warsaw ;15;Polônia
+248;Loja Contoso Valletta ;42;Malta
+249;Loja Contoso Dublin ;55;Irlanda
+250;Loja Contoso Athens ;15;Grécia
+251;Loja Contoso Singapore ;27;Singapura
+252;Loja Contoso Canberra ;28;Austrália
+253;Loja Contoso Sydney No.1 ;20;Austrália
+254;Loja Contoso Yerevan ;15;Armênia
+255;Loja Contoso New Delhi ;29;Índia
+256;Loja Contoso Mumbai ;35;Índia
+257;Loja Contoso Kolkata ;35;Índia
+258;Loja Contoso Thimphu No.1 ;35;Butão
+259;Loja Contoso Hong Kong No.1 ;35;China
+260;Loja Contoso Tehran No.1 ;35;Irã
+261;Loja Contoso Damascus No.1 ;35;Síria
+262;Loja Contoso Bangkok No.1 ;62;Tailândia
+263;Loja Contoso Moscow  No.1 ;65;Rússia
+264;Loja Contoso Ashgabat No.1 ;68;Turquemenistão
+265;Loja Contoso Islamabad No.1 ;71;Paquistão
+267;Loja Contoso Tokyo No.1 ;68;Japão
+268;Loja Contoso Tokyo No.2 ;68;Japão
+269;Loja Contoso Yokohama ;77;Japão
+270;Loja Contoso Osaka No.1 ;80;Japão
+271;Loja Contoso Nagoya ;50;Japão
+272;Loja Contoso Sapporo ;50;Japão
+273;Loja Contoso Kyoto ;50;Japão
+274;Loja Contoso Seoul ;50;Coreia do Sul
+275;Loja Contoso Busan ;50;Coreia do Sul
+276;Loja Contoso Bishkek ;50;Quirguistão
+277;Loja Contoso Shanghai No.1 ;95;China
+278;Loja Contoso Urumqi ;50;China
+279;Loja Contoso Beijing ;86;China
+280;Loja Contoso Guangzhou ;131;China
+281;Loja Contoso Shanghai No.2 ;95;China
+282;Loja Contoso Ottawa No.1 ;95;Canadá
+283;Loja Contoso Ottawa No.2 ;95;Canadá
+284;Loja Contoso Toronto No.1 ;95;Canadá
+285;Loja Contoso Toronto No.2 ;95;Canadá
+286;Loja Contoso Toronto No.3 ;95;Canadá
+287;Loja Contoso Montreal No.1 ;95;Canadá
+288;Loja Contoso Montreal No.2 ;95;Canadá
+289;Loja Contoso Vancouver  No.1 ;95;Canadá
+290;Loja Contoso Vancouver  No.2 ;95;Canadá
+291;Loja Contoso Calgary  ;95;Canadá
+292;Loja Contoso Thimphu No.2 ;95;Butão
+293;Loja Contoso Hong Kong No.2 ;95;China
+294;Loja Contoso Tehran No.2 ;95;Irã
+295;Loja Contoso Damascus No.2 ;95;Síria
+296;Loja Contoso Bangkok No.2 ;95;Tailândia
+297;Loja Contoso Moscow  No.2 ;95;Rússia
+298;Loja Contoso Ashgabat  No.2 ;95;Turquemenistão
+299;Loja Contoso Islamabad  No.2 ;95;Paquistão
+300;Loja Contoso Sydney  No.2 ;95;Austrália
+301;Loja Contoso Osaka No.2 ;95;Japão
+302;Loja Contoso Taipei  ;95;Taiwan
+303;Loja Contoso Lisbon ;95;Portugal
+304;Loja Contoso Saint Petersburg ;95;Rússia
+305;Loja Contoso Nizhny Novgorod ;95;Rússia
+12;Loja Contoso North Bend ;19;Estados Unidos
+19;Loja Contoso Cheney ;19;Estados Unidos
+29;Loja Contoso Sedalia ;47;Estados Unidos
+48;Loja Contoso Milwaukee No.2 ;25;Estados Unidos
+62;Loja Contoso Stoughton ;17;Estados Unidos
+84;Loja Contoso Humble ;22;Estados Unidos
+112;Loja Contoso Key West ;19;Estados Unidos
+119;Loja Contoso Buffalo ;19;Estados Unidos
+129;Loja Contoso Trenton No.2 ;47;Estados Unidos
+148;Loja Contoso Worcester No.2 ;25;Estados Unidos
+162;Loja Contoso Pittsfield ;17;Estados Unidos
+184;Loja Contoso Alexandria ;22;Estados Unidos
+199;Loja Contoso North America Online ;325;Estados Unidos
+200;Loja Contoso Catalog ;120;Estados Unidos
+306;Loja Contoso Europe Online ;7;Alemanha
+307;Loja Contoso Asia Online ;8;China
+308;Loja Contoso North America Reseller;15;Estados Unidos
+309;Loja Contoso Europe Reseller;12;França
+310;Loja Contoso Asia Reseller;17;China
