@@ -22,4 +22,5 @@ O objetivo deste repositório é armazenar os estudos e resoluções de exercíc
 - List Comprehension
 - Expressões Lambda
 - Análise de Dados com Pandas
-- Integração com arquivos txt e pdf (Em andamento)
+- Integração com arquivos txt e pdf
+- Integração com arquivos e pastas do computador (em andamento)
