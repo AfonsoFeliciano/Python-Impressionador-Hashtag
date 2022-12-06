@@ -1,0 +1,84 @@
+<html>
+    <body>
+        <form>
+        <input type="button" value="Clique em mim" onclick="alert('Voc&ecirc; clicou em mim!')">
+        <br>
+        <span>Ative e desative as checkbox</span>
+        <input type="checkbox">
+        <input type="checkbox">
+        <br>
+        <span>Selecione o vermelho por RGB 232 33 33</span>
+        <input type="color">
+        <br>
+        <span>Selecione o vermelho HEX #2143E8</span>
+        <input type="color">
+        <br>
+        <span>Quando é o aniversário da sua cidade?</span>
+        <input type="date">
+        <br>
+        <span>Que dias e que horas você nasceu?</span>
+        <input type="datetime-local">
+        <br>
+        <span>Faça o upload de um arquivo passando o caminho completo do arquivo com .send_keys()</span>
+        <input type="file">
+        <br>
+        <span>Selecione um mês e um ano</span>
+        <input type="month">
+        <br>
+        <span>Só inputs numéricos aqui</span>
+        <input type="number">
+        <br>
+        <span>Cuidado para não revelar a sua senha!</span>
+        <input type="password">
+        <br>
+        <span>Com Radio buttons só é possível escolher uma opção por vez, selecione a opção do meio</span>
+        <input type="radio" name="01">
+        <input type="radio" name="01">
+        <input type="radio" name="01">
+        <br>
+        <span>O mínimo é 0, o máximo é 100, tente colocar no 70</span>
+        <input type="range" min="0" max="100">
+        <br>
+        <span>Qual o seu time?</span>
+        <input type="text">
+        <br>
+        <span>Que horas são?</span>
+        <input type="time">
+        <br>
+        <span>Que horas são?</span>
+        <input type="week">
+        <br>
+        <span>Escreva 5 linhas depois limpe com .clear()</span>
+        <p>Referência: https://selenium-python.readthedocs.io/navigating.html?highlight=select#filling-in-forms</p>
+        <textarea id="story" name="story" rows="5" cols="33"></textarea>
+        <br>
+        <span>Selecione a opção A com .send_keys() no elemento select</span>
+        <select>
+            <option value="a">A</option>
+            <option value="b">B</option>
+            <option value="c">C</option>
+        </select>
+        <br>
+        <p>Selecione a opção B com from selenium.webdriver.support.ui import Select</p>
+        <p>Referência: https://selenium-python.readthedocs.io/navigating.html?highlight=select#filling-in-forms</p>
+        <p>Sugiro que mostre as outras utilidades dele como:</p>
+        <p>.select_by_index(index)</p>
+        <p>.select_by_visible_text("text")</p>
+        <p>.select_by_value(value)</p>
+        <p>.deselect_all()</p>
+        <p>select.options</p>
+        <select>
+            <option value="a">A</option>
+            <option value="b">B</option>
+            <option value="c">C</option>
+        </select>
+        <br>
+        <span>Clique aqui para limpar o formulário</span>
+        <input type="reset" >
+        <br>
+        <span>Clique aqui para enviar o formulário</span>
+        <input type="submit">
+        <br>
+    </form>
+    </body>
+</html>
