@@ -1,0 +1,154 @@
+<html>
+    <head>
+        <style>
+            input, select{
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0 25px 0;
+            border: none;
+            background: #f1f1f1;
+            }
+
+            form{
+                width: 33%;
+            }
+
+            div{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                /* height: 100%; */
+                justify-content: center;
+                align-items: center;
+            }
+
+            button{
+                width: 100%;
+                background-color: #047baa;
+                color: #ffffff;
+                border: none;
+                padding: 15px;
+            }
+
+            button:hover{
+                opacity: 0.7;
+            }
+        </style>
+        <script>
+            function getXml(){
+
+                var elements = document.forms.formulario.elements;
+                var xmlTemplate = '<?xml version="1.0"?> <formData>';
+                for(var i =0; i< elements.length; i++){
+                    var element = elements[i];
+                    if(element.tagName=="INPUT"){
+                        xmlTemplate = xmlTemplate + '<'+element.name+'>' + element.value+'</'+element.name+'>';
+                    }
+                    if(element.tagName=="SELECT"){
+                        xmlTemplate = xmlTemplate + '<'+element.name+'>' + element.value+'</'+element.name+'>';
+                    }
+
+
+                }
+                xmlTemplate = xmlTemplate +'</formData>';
+            return xmlTemplate;
+            }
+
+            function download() {
+                var element = document.createElement('a');
+                text = getXml();
+                element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+                element.setAttribute('download', 'nota.xml');
+
+                element.style.display = 'none';
+                document.body.appendChild(element);
+
+                element.click();
+
+                document.body.removeChild(element);
+                }
+
+        </script>
+    </head>
+    <body>
+        <div>
+            <form id="formulario">
+                <!-- <div class="container"> -->
+                    <h1>Emissão de nota fiscal</h1>
+                    <p><b>Destinatário da mercadoria e/ou tomador do serviço</b></p>
+                    <hr>
+                    <label><b>Nome/Razão Social</b></label>
+                    <input type="text" id="nome" name="nome">
+
+                    <label><b>Endereço</b></label>
+                    <input type="text" id="nome" name="endereco">
+                    <!-- A id está repetida de propósito: sugiro mostrar como a busca por id única/xpath simples pode ser falha aqui -->
+                
+                    <label><b>Bairro</b></label>
+                    <input type="text" name="bairro">
+                
+                    <label><b>Município</b></label>
+                    <input type="text" name="municipio" >
+
+                    <label><b>CEP</b></label>
+                    <input type="text" size="10" maxlength="9" name="cep">
+                    
+                    <label ><b>UF</b></label>
+                    <select name="uf">
+                    <option selected="selected" value=""></option>
+                    <option value="1">AC</option>
+                    <option value="2">AL</option>
+                    <option value="3">AM</option>
+                    <option value="4">AP</option>
+                    <option value="5">BA</option>
+                    <option value="6">CE</option>
+                    <option value="7">DF</option>
+                    <option value="8">ES</option>
+                    <option value="9">GO</option>
+                    <option value="10">MA</option>
+                    <option value="11">MG</option>
+                    <option value="12">MS</option>
+                    <option value="13">MT</option>
+                    <option value="14">PA</option>
+                    <option value="15">PB</option>
+                    <option value="16">PE</option>
+                    <option value="17">PI</option>
+                    <option value="18">PR</option>
+                    <option value="19">RJ</option>
+                    <option value="20">RN</option>
+                    <option value="21">RO</option>
+                    <option value="22">RR</option>
+                    <option value="23">RS</option>
+                    <option value="24">SC</option>
+                    <option value="25">SE</option>
+                    <option value="26">SP</option>
+                    <option value="27">TO</option>
+                </select>
+
+                <label><b>CNPJ/CPF</b></label>
+                <input type="text" name="cnpj">
+
+                <label><b>Inscrição estadual</b></label>
+                <input type="text" name="inscricao">
+
+                <p><b>Descrição das mercadorias/serviço prestado</b></p>
+                <hr>
+
+                <label><b>Descrição do produto/serviço</b></label>
+                <input type="text" name="descricao">
+
+                <label><b>Quantidade</b></label>
+                <input type="number" name="quantidade">
+
+                <label><b>Valor unitário</b></label>
+                <input type="number" step="0.01" name="valor_unitario">
+
+                <label><b>Valor total</b></label>
+                <input type="number" step="0.01" name="total">
+            
+                <button type="button" class="registerbtn" onclick="download()">Emitir nota</button>
+                <!-- </div> -->
+            </form>
+        </div>
+    </body>
+</html>
