@@ -8,6 +8,9 @@ class TV:
         self.tamanho = 55
         self.canal = 'SBT'
         self.volume = 10
+    
+    def ligar_tv():
+        
 
 tv_sala = TV()
 tv_quarto = TV()
