@@ -5,6 +5,7 @@ class ContaCorrente:
         self.nome = nome
         self.cpf = cpf 
         self.saldo = 0
+        self.limite = None
     
     def consultar_saldo(self):
         """Consulta o valor do saldo"""
@@ -14,9 +15,18 @@ class ContaCorrente:
         """Deposita um valor na conta"""
         self.saldo += valor
 
+    def limite_conta(self):
+        """Verifica o limite da conta"""
+        self.limite = -1000
+        return self.limite
+
     def sacar(self, valor):
         """Retira um valor da conta"""
-        self.saldo -= valor
+        if self.saldo - valor < self.limite_conta():
+            print("O seu saldo é insuficiente para o saque informado")
+            self.consultar_saldo()
+        else:
+            self.saldo -= valor
 
     
 #Programa
@@ -35,5 +45,5 @@ conta_Afonso.consultar_saldo()
 
 #Retirando dinheiro
 print("\nSacando")
-conta_Afonso.sacar(1210)
+conta_Afonso.sacar(10500)
 conta_Afonso.consultar_saldo()
