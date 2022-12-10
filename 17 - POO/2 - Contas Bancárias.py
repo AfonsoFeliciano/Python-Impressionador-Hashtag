@@ -15,18 +15,21 @@ class ContaCorrente:
         """Deposita um valor na conta"""
         self.saldo += valor
 
-    def limite_conta(self):
-        """Verifica o limite da conta"""
+    def _definir_limite_conta(self):
+        """Define o limite da conta. Método privado"""
         self.limite = -1000
         return self.limite
 
     def sacar(self, valor):
         """Retira um valor da conta"""
-        if self.saldo - valor < self.limite_conta():
+        if self.saldo - valor < self._definir_limite_conta():
             print("O seu saldo é insuficiente para o saque informado")
             self.consultar_saldo()
         else:
             self.saldo -= valor
+    
+    def consulta_limite_conta(self):
+        print("O seu limite de cheque especial é de {}".format(self._definir_limite_conta()))
 
     
 #Programa
@@ -47,3 +50,7 @@ conta_Afonso.consultar_saldo()
 print("\nSacando")
 conta_Afonso.sacar(10500)
 conta_Afonso.consultar_saldo()
+
+#Consultando limite da conta
+conta_Afonso.consulta_limite_conta()
+
