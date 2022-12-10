@@ -53,10 +53,17 @@ class ContaCorrente:
         for transacao in self.transacoes:
             print(transacao)
 
+    def transferir(self, valor, conta_destino):
+        """Realiza transferência entre contas"""
+        self.saldo -= valor
+        self.transacoes.append((-valor, self.saldo, ContaCorrente._data_hora()))
+        conta_destino.saldo += valor
+        conta_destino.transacoes.append((valor, conta_destino.saldo, ContaCorrente._data_hora()))
     
 #Programa
 print("Criando conta")
 conta_Afonso = ContaCorrente("Afonso", "1212447787")
+conta_Mae_Afonso = ContaCorrente("Maria", "4545471")
 print("Nome: ",conta_Afonso.nome)
 print("CPF: ",conta_Afonso.cpf)
 conta_Afonso.consultar_saldo()
@@ -78,3 +85,12 @@ conta_Afonso.consulta_limite_conta()
 
 print("\n")
 conta_Afonso.consultar_historico_transacoes()
+
+print("Transferir")
+conta_Afonso.transferir(500, conta_Mae_Afonso)
+
+conta_Afonso.consultar_saldo()
+conta_Mae_Afonso.consultar_saldo()
+
+conta_Afonso.consultar_historico_transacoes()
+conta_Mae_Afonso.consultar_historico_transacoes()
