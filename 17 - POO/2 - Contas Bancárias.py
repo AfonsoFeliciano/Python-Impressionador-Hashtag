@@ -29,6 +29,7 @@ class ContaCorrente:
             self.saldo -= valor
     
     def consulta_limite_conta(self):
+        """Retorna o limite em cheque especial"""
         print("O seu limite de cheque especial é de {}".format(self._definir_limite_conta()))
 
     
