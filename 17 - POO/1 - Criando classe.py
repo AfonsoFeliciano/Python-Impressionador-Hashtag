@@ -2,9 +2,11 @@
 
 class TV:
 
-    def __init__(self, cor, ligada, canal, tamanho, volume):
+    cor = "preta"
+
+    def __init__(self, ligada, canal, tamanho, volume):
         """Cria uma TV com os parâmetros"""
-        self.cor = cor
+        
         self.ligada = ligada
         self.tamanho = tamanho
         self.canal = canal
@@ -16,8 +18,8 @@ class TV:
         print("Canal alterado para {}".format(novo_canal))
         
 #Criando os objetos
-tv_sala = TV(cor="Verde", ligada=True, canal="Globo", tamanho=27, volume=15)
-tv_quarto = TV(cor="Preta", ligada=False, canal="SBT", tamanho=35, volume=30)
+tv_sala = TV(ligada=True, canal="Globo", tamanho=27, volume=15)
+tv_quarto = TV(ligada=False, canal="SBT", tamanho=35, volume=30)
 
 
 #Mudando propriedade de um objeto
@@ -32,4 +34,4 @@ print("Canal da tv sala:", tv_sala.canal)
 tv_sala.mudar_canal("Disney Plus")
 print("Canal da tv sala após mudar canal:", tv_sala.canal)
 
-    
+print(tv_sala.cor)
