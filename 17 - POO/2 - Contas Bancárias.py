@@ -11,36 +11,38 @@ class ContaCorrente:
         horario_BR = datetime.now(fuso_BR)
         return horario_BR.strftime('%d/%m/%Y %H:%M:%S')
 
-    def __init__(self, nome, cpf):
+    def __init__(self, nome, cpf, agencia, conta):
         """Inicialização da classe"""
-        self.nome = nome
-        self.cpf = cpf 
-        self.saldo = 0
-        self.limite = None
-        self.transacoes = []
+        self._nome = nome
+        self._cpf = cpf 
+        self._saldo = 0
+        self._limite = None
+        self._agencia = agencia
+        self._conta = conta
+        self._transacoes = []
     
     def consultar_saldo(self):
         """Consulta o valor do saldo"""
-        print("O saldo atual é de: R$ {:,.2f}".format(self.saldo))
+        print("O saldo atual é de: R$ {:,.2f}".format(self._saldo))
 
     def depositar(self, valor):
         """Deposita um valor na conta"""
-        self.saldo += valor
-        self.transacoes.append((valor, self.saldo, ContaCorrente._data_hora()))
+        self._saldo += valor
+        self._transacoes.append((valor, self._saldo, ContaCorrente._data_hora()))
 
     def _definir_limite_conta(self):
         """Define o limite da conta. Método privado"""
-        self.limite = -1000
-        return self.limite
+        self._limite = -1000
+        return self._limite
 
     def sacar(self, valor):
         """Retira um valor da conta"""
-        if self.saldo - valor < self._definir_limite_conta():
+        if self._saldo - valor < self._definir_limite_conta():
             print("O seu saldo é insuficiente para o saque informado")
             self.consultar_saldo()
         else:
-            self.saldo -= valor
-            self.transacoes.append((-valor, self.saldo, ContaCorrente._data_hora()))
+            self._saldo -= valor
+            self._transacoes.append((-valor, self._saldo, ContaCorrente._data_hora()))
     
     def consulta_limite_conta(self):
         """Retorna o limite em cheque especial"""
@@ -50,22 +52,22 @@ class ContaCorrente:
         """Consulta o histórico de transações"""
         print("Histórico de transações")
         print("Valor, Saldo, Data e Hora")
-        for transacao in self.transacoes:
+        for transacao in self._transacoes:
             print(transacao)
 
     def transferir(self, valor, conta_destino):
         """Realiza transferência entre contas"""
-        self.saldo -= valor
-        self.transacoes.append((-valor, self.saldo, ContaCorrente._data_hora()))
-        conta_destino.saldo += valor
-        conta_destino.transacoes.append((valor, conta_destino.saldo, ContaCorrente._data_hora()))
+        self._saldo -= valor
+        self._transacoes.append((-valor, self._saldo, ContaCorrente._data_hora()))
+        conta_destino._saldo += valor
+        conta_destino._transacoes.append((valor, conta_destino._saldo, ContaCorrente._data_hora()))
     
 #Programa
 print("Criando conta")
-conta_Afonso = ContaCorrente("Afonso", "1212447787")
-conta_Mae_Afonso = ContaCorrente("Maria", "4545471")
-print("Nome: ",conta_Afonso.nome)
-print("CPF: ",conta_Afonso.cpf)
+conta_Afonso = ContaCorrente("Afonso", "1212447787", "01212", "4544")
+conta_Mae_Afonso = ContaCorrente("Maria", "4545471", "121244", "12121")
+print("Nome: ",conta_Afonso._nome)
+print("CPF: ",conta_Afonso._cpf)
 conta_Afonso.consultar_saldo()
 
 
