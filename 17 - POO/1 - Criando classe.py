@@ -9,7 +9,8 @@ class TV:
         self.canal = 'SBT'
         self.volume = 10
     
-    def ligar_tv():
+    def mudar_canal(self):
+        self.canal = 'Band'
         
 
 tv_sala = TV()
@@ -20,5 +21,10 @@ tv_sala.cor = 'branca'
 
 print("Cor tv sala: ",tv_sala.cor)
 print("Cor tv quarto: ", tv_quarto.cor)
-    
+print("######")
+
+print("Canal da tv sala:", tv_sala.canal)
+tv_sala.mudar_canal()
+print("Canal da tv sala após mudar canal:", tv_sala.canal)
+
     
