@@ -26,4 +26,4 @@ O objetivo deste repositório é armazenar os estudos e resoluções de exercíc
 - Integração com arquivos e pastas do computador 
 - Integração com APIs
 - Webscrapping 
-- Programação Orientada a Objetos (Em andamento)
+- Programação Orientada a Objetos
