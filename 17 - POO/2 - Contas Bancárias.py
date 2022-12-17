@@ -126,7 +126,8 @@ print("Modificando senha \n")
 cartao_afonso.senha = '1345'
 print(cartao_afonso.senha)
 
-
+print("Consultando todos os atributos da classe \n")
+print(conta_Afonso.__dict__)
 
 
 
