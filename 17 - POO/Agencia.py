@@ -1,3 +1,6 @@
+from random import randint
+
+
 class Agencia:
 
     def __init__(self, telefone, cnpj, numero):
@@ -12,7 +15,7 @@ class Agencia:
         if self.caixa < 1000000:
             print('Caixa abaixo do nível recomendado. Caixa atual: {}'.format(self.caixa))
         else:
-            print('O valor do caixa está ok {}'.format(self.caixa))
+            print('O valor do caixa está ok. Caixa atual: {}'.format(self.caixa))
 
     def emprestar_dinheiro(self, valor, cpf, juros):
         if self.caixa > valor:
@@ -30,26 +33,43 @@ class AgenciaVirtual(Agencia):
         self.site = site
         super().__init__(telefone, cnpj, 1000)
         self.caixa = 1000000
+        self.caixa_paypal = 0
+
+    def depositar_paypal(self, valor):
+        self.caixa -= valor 
+        self.caixa_paypal += valor 
+
+    def sacar_paypal(self, valor):
+        self.caixa_paypal -= valor 
+        self.caixa_paypal += valor 
 
     
 
 
 class AgenciaComum(Agencia):
 
-    pass
+    def __init__(self, telefone, cnpj):
+        super().__init__(telefone, cnpj, numero = randint(1001, 9999))
+        self.caixa = 1000000
+
+    
 
 
 class AgenciaPremium(Agencia):
-
-    pass
+    def __init__(self, telefone, cnpj):
+        super().__init__(telefone, cnpj, numero = randint(1001, 9999))
+        self.caixa = 10000000
 
 
 
 
 agencia1 = Agencia(454545, 45454455, 4544)
 agencia_virtual = AgenciaVirtual('siteagenciavirtual.com.br', 2222, 444444)
+agencia_comum = AgenciaComum(121212, 45454454)
+agencia_premium = AgenciaPremium(1511, 10)
 
 
-agencia_virtual.verificar_caixa()
-print(agencia_virtual.site)
-print(agencia_virtual.cnpj)
+agencia_virtual.depositar_paypal(2000)
+print(agencia_virtual.caixa)
+print(agencia_virtual.caixa_paypal)
+print("\n")
