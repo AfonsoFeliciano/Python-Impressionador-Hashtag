@@ -34,6 +34,7 @@ class ContaCorrente:
         self._agencia = agencia
         self._conta = conta
         self._transacoes = []
+        self._cartoes = []
     
     def consultar_saldo(self):
         """Consulta o valor do saldo"""
@@ -75,11 +76,38 @@ class ContaCorrente:
         self._transacoes.append((-valor, self._saldo, ContaCorrente._data_hora()))
         conta_destino._saldo += valor
         conta_destino._transacoes.append((valor, conta_destino._saldo, ContaCorrente._data_hora()))
+
+class CartaoCredito:
+
+    def __init__(self, titular, conta_corrente):
+        self.numero = 123
+        self.titular = titular
+        self.validade = None
+        self.codigo_seguranca = None
+        self.limite = None
+        self.conta_corrente = conta_corrente
+        conta_corrente._cartoes.append(self)
+
+
+
+
+
+    
     
 #Programa
 print("Criando conta")
 conta_Afonso = ContaCorrente("Afonso", "1212447787", "01212", "4544")
-conta_Mae_Afonso = ContaCorrente("Maria", "4545471", "121244", "12121")
+
+print("Criando cartão de crédito")
+cartao_afonso = CartaoCredito("Afonso", conta_Afonso)
+print(cartao_afonso.conta_corrente._conta)
+print(conta_Afonso._cartoes[0].numero)
+
+
+
+
+
+"""conta_Mae_Afonso = ContaCorrente("Maria", "4545471", "121244", "12121")
 print("Nome: ",conta_Afonso._nome)
 print("CPF: ",conta_Afonso._cpf)
 conta_Afonso.consultar_saldo()
@@ -111,4 +139,4 @@ conta_Mae_Afonso.consultar_saldo()
 conta_Afonso.consultar_historico_transacoes()
 conta_Mae_Afonso.consultar_historico_transacoes()
 
-help(ContaCorrente)
+help(ContaCorrente)"""
