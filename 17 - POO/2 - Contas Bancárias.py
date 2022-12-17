@@ -93,8 +93,21 @@ class CartaoCredito:
         self.validade = '{}/{}'.format(CartaoCredito._data_hora().month, CartaoCredito._data_hora().year + 4)
         self.codigo_seguranca = '{}{}{}'.format(randint(0, 9), randint(0, 9), randint(0, 9))
         self.limite = 1000
+        self._senha = 1234
         self.conta_corrente = conta_corrente
         conta_corrente.cartoes.append(self)
+
+    @property
+    def senha(self):
+        return self._senha
+
+    @senha.setter
+    def senha(self, valor):
+        if len(valor) == 4 and valor.isnumeric():
+            self._senha = valor
+        else:
+            print("Senha inválida.")
+
 
 
 
@@ -103,13 +116,15 @@ class CartaoCredito:
     
     
 #Programa
-print("Criando conta")
+print("Criando conta \n")
 conta_Afonso = ContaCorrente("Afonso", "1212447787", "01212", "4544")
 
 print("Criando cartão de crédito")
 cartao_afonso = CartaoCredito("Afonso", conta_Afonso)
-print(cartao_afonso.conta_corrente._conta)
-print(cartao_afonso.codigo_seguranca)
+
+print("Modificando senha \n")
+cartao_afonso.senha = '1345'
+print(cartao_afonso.senha)
 
 
 
