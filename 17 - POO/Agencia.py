@@ -26,7 +26,12 @@ class Agencia:
 ########Subclasses########
 class AgenciaVirtual(Agencia):
 
-    pass
+    def __init__(self, site, telefone, cnpj):
+        self.site = site
+        super().__init__(telefone, cnpj, 1000)
+        self.caixa = 1000000
+
+    
 
 
 class AgenciaComum(Agencia):
@@ -42,9 +47,9 @@ class AgenciaPremium(Agencia):
 
 
 agencia1 = Agencia(454545, 45454455, 4544)
-agencia_virtual = AgenciaVirtual(2222, 444444, 30000)
+agencia_virtual = AgenciaVirtual('siteagenciavirtual.com.br', 2222, 444444)
 
 
-
-agencia_virtual.caixa = 15000
 agencia_virtual.verificar_caixa()
+print(agencia_virtual.site)
+print(agencia_virtual.cnpj)
