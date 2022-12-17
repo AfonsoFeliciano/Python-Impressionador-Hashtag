@@ -61,20 +61,3 @@ class AgenciaPremium(Agencia):
             super().adicionar_cliente(nome, cpf, patrimonio)
         else:
             print("O cliente não possui o patrimônio mínimo necessário para entrar na Agência")
-
-
-
-
-agencia1 = Agencia(454545, 45454455, 4544)
-agencia_virtual = AgenciaVirtual('siteagenciavirtual.com.br', 2222, 444444)
-agencia_comum = AgenciaComum(121212, 45454454)
-agencia_premium = AgenciaPremium(1511, 10)
-
-
-agencia_virtual.depositar_paypal(2000)
-print(agencia_virtual.caixa)
-print(agencia_virtual.caixa_paypal)
-print("\n")
-
-agencia_premium.adicionar_cliente('Afonso', 45444545, 10000000)
-print(agencia_premium.clientes)
