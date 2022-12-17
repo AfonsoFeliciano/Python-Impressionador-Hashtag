@@ -44,21 +44,23 @@ class AgenciaVirtual(Agencia):
         self.caixa_paypal += valor 
 
     
-
-
 class AgenciaComum(Agencia):
 
     def __init__(self, telefone, cnpj):
         super().__init__(telefone, cnpj, numero = randint(1001, 9999))
         self.caixa = 1000000
 
-    
-
-
 class AgenciaPremium(Agencia):
+
     def __init__(self, telefone, cnpj):
         super().__init__(telefone, cnpj, numero = randint(1001, 9999))
         self.caixa = 10000000
+
+    def adicionar_cliente(self, nome, cpf, patrimonio):
+        if patrimonio > 1000000:
+            super().adicionar_cliente(nome, cpf, patrimonio)
+        else:
+            print("O cliente não possui o patrimônio mínimo necessário para entrar na Agência")
 
 
 
@@ -73,3 +75,6 @@ agencia_virtual.depositar_paypal(2000)
 print(agencia_virtual.caixa)
 print(agencia_virtual.caixa_paypal)
 print("\n")
+
+agencia_premium.adicionar_cliente('Afonso', 45444545, 10000000)
+print(agencia_premium.clientes)
