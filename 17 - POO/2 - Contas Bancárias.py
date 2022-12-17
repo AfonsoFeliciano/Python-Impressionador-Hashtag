@@ -1,4 +1,5 @@
 from datetime import datetime
+from random import randint
 import pytz
 
 
@@ -34,7 +35,7 @@ class ContaCorrente:
         self._agencia = agencia
         self._conta = conta
         self._transacoes = []
-        self._cartoes = []
+        self.cartoes = []
     
     def consultar_saldo(self):
         """Consulta o valor do saldo"""
@@ -79,14 +80,21 @@ class ContaCorrente:
 
 class CartaoCredito:
 
+    @staticmethod
+    def _data_hora():
+        """Retorna a data e hora atual"""
+        fuso_BR = pytz.timezone("Brazil/East")
+        horario_BR = datetime.now(fuso_BR)
+        return horario_BR
+
     def __init__(self, titular, conta_corrente):
-        self.numero = 123
+        self.numero = randint(1000000000000000, 9999999999999999)
         self.titular = titular
-        self.validade = None
-        self.codigo_seguranca = None
-        self.limite = None
+        self.validade = '{}/{}'.format(CartaoCredito._data_hora().month, CartaoCredito._data_hora().year + 4)
+        self.codigo_seguranca = '{}{}{}'.format(randint(0, 9), randint(0, 9), randint(0, 9))
+        self.limite = 1000
         self.conta_corrente = conta_corrente
-        conta_corrente._cartoes.append(self)
+        conta_corrente.cartoes.append(self)
 
 
 
@@ -101,7 +109,7 @@ conta_Afonso = ContaCorrente("Afonso", "1212447787", "01212", "4544")
 print("Criando cartão de crédito")
 cartao_afonso = CartaoCredito("Afonso", conta_Afonso)
 print(cartao_afonso.conta_corrente._conta)
-print(conta_Afonso._cartoes[0].numero)
+print(cartao_afonso.codigo_seguranca)
 
 
 
